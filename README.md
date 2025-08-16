@@ -414,14 +414,6 @@ print(f"Probable key lengths: {key_lengths[:5]}")
 - **Auction**: Jim Sanborn is auctioning the official K4 key
 - **Community**: Active cryptanalysis community continues research
 
-## Contributing
-
-This is an active research project. Contributions welcome for:
-- New statistical analysis methods
-- Cipher implementation improvements
-- Pattern recognition algorithms
-- Performance optimizations
-
 ## References
 
 - [Kryptos Official Website](https://www.cia.gov/legacy/museum/kryptos/)
