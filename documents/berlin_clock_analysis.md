@@ -1,4 +1,5 @@
 # Berlin Clock (Mengenlehreuhr) Analysis for K4
+**By Matthew D. Klepp**
 
 ## Berlin Clock Mechanism
 
@@ -100,10 +101,3 @@ This suggests the cipher may involve:
 3. **Physical component**: May require understanding of sculpture's light effects
 4. **Geographic reference**: Berlin location may be significant for calculations
 
-## Next Steps
-
-1. **Implement Berlin Clock simulator** with all 24-light states
-2. **Test time-based Vigenère variants** using clock-derived keys
-3. **Analyze directional encoding schemes** for EAST/NORTHEAST pattern
-4. **Cross-reference with K1-K3 solutions** for cipher consistency
-5. **Prepare for K5 interpretation** once K4 is solved

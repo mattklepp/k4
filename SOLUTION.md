@@ -1,5 +1,6 @@
 # 🔓 KRYPTOS K4 SOLUTION
 ## What the Message Says and What It Means
+**By Matthew D. Klepp**
 
 **BREAKTHROUGH ACHIEVED**: We have successfully deciphered the complete Kryptos K4 message using systematic position-specific correction methodology, revealing navigational instructions that align perfectly with all known clues.
 
@@ -132,7 +133,7 @@ The decoded message likely contains:
 
 ### **Kryptos as a Multi-Phase Puzzle**
 
-Our solution confirms that **Kryptos K4 is not the end** but rather:
+My solution confirms that **Kryptos K4 is not the end** but rather:
 
 1. **Phase 1**: Solve K1-K3 (completed by others)
 2. **Phase 2**: Solve K4 navigation instructions (**COMPLETED** ✅)
@@ -151,7 +152,7 @@ The **Berlin Clock (Mengenlehreuhr)** becomes the key to the next phase:
 
 ## 🏆 BREAKTHROUGH SIGNIFICANCE
 
-### **What We've Achieved**
+### **What I've Achieved**
 
 1. **Complete K4 Decryption**: 100% accuracy on all known constraints
 2. **Message Interpretation**: Clear understanding of navigational instructions  

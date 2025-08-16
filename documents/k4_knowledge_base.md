@@ -1,4 +1,5 @@
 # Kryptos K4 Knowledge Base
+**By Matthew D. Klepp**
 *Comprehensive collection of all publicly available information about the unsolved K4 cipher*
 
 ## Basic Facts

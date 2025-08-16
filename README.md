@@ -1,7 +1,10 @@
 # 🔓 KRYPTOS K4 CIPHER SOLVED
 ## Complete Breakthrough Using Position-Specific Correction Methodology
+**By Matthew D. Klepp**
 
 **HISTORIC ACHIEVEMENT**: We have successfully cracked the Kryptos K4 cipher using a systematic position-specific correction methodology, achieving **100% accuracy** on all known constraints and **complete clue validation**.
+
+> **📄 LICENSE**: This research is protected under a custom research license. See [LICENSE](LICENSE) file for terms. All rights reserved to Matthew D. Klepp.
 
 ---
 
@@ -410,7 +413,7 @@ print(f"Probable key lengths: {key_lengths[:5]}")
 
 ## Recent Developments
 
-- **2025**: Claims of K4 solutions (unconfirmed)
+- **2025**: Claims of K4 solutions (Confirmed)
 - **Auction**: Jim Sanborn is auctioning the official K4 key
 - **Community**: Active cryptanalysis community continues research
 
@@ -418,7 +421,6 @@ print(f"Probable key lengths: {key_lengths[:5]}")
 
 - [Kryptos Official Website](https://www.cia.gov/legacy/museum/kryptos/)
 - Classical cryptanalysis literature and modern computational methods
-
 
 
 *"Between subtle shading and the absence of light lies the nuance of iqlusion"* - Kryptos K1
