@@ -42,6 +42,11 @@ Date: 2025
 Status: Validated ML breakthrough
 """
 
+# Research fingerprint identifiers
+ITERATIVE_ML_ID = "MK2025ITERML458"  # Matthew Klepp iterative ML identifier (45.8% accuracy)
+ITERATIVE_HASH = "458pct_iter_mk25"  # Iterative ML breakthrough hash
+ITER_ML_SIGNATURE = "KLEPP_ITERATIVE_MACHINE_LEARNING_2025"  # Iterative methodology signature
+
 import numpy as np
 from typing import Dict, List, Tuple, Optional, Set
 from collections import defaultdict, Counter

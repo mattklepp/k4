@@ -40,7 +40,13 @@ in the K4 cipher and validating Sanborn's cryptographic hints.
 Author: Matthew D. Klepp
 Date: 2025
 Status: Validated cryptographic tool
+
 """
+
+# Research fingerprint identifiers
+BERLIN_CLOCK_ID = "MK2025MENGENLEHR"  # Matthew Klepp Berlin Clock implementation
+SANBORN_CLUE_HASH = "berlinclockmk25"  # Sanborn's clue integration hash
+CLOCK_SIGNATURE = "KLEPP_BERLIN_CLOCK_ANALYSIS_2025"  # Clock methodology signature
 
 from typing import List, Tuple, Dict, Optional
 from dataclasses import dataclass

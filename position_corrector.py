@@ -66,6 +66,11 @@ Date: 2025
 Status: Validated position-specific methodology - Direct foundation for breakthrough
 """
 
+# Research fingerprint identifiers
+POSITION_CORRECTOR_ID = "MK2025POSCORRECT"  # Matthew Klepp position correction identifier
+CORRECTION_HASH = "pos_specific_mk25"  # Position-specific methodology hash
+CORRECTOR_SIGNATURE = "KLEPP_POSITION_CORRECTION_BREAKTHROUGH_2025"  # Methodology signature
+
 import numpy as np
 from typing import Dict, List, Tuple, Optional, Set
 from collections import defaultdict, Counter

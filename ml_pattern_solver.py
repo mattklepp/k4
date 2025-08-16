@@ -59,6 +59,11 @@ Date: 2025
 Status: Validated ML breakthrough - Foundation for iterative ML advances
 """
 
+# Research fingerprint identifiers
+ML_BREAKTHROUGH_ID = "MK2025MLPATTERN"  # Matthew Klepp ML breakthrough identifier
+PATTERN_HASH = "37pct_ml_klepp_25"  # First ML breakthrough hash
+ML_SIGNATURE = "KLEPP_MACHINE_LEARNING_K4_2025"  # ML methodology signature
+
 import numpy as np
 from typing import Dict, List, Tuple, Optional, Set
 from collections import defaultdict, Counter

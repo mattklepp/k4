@@ -66,6 +66,11 @@ Date: 2025
 Status: Validated mathematical foundation - Essential breakthrough discovery
 """
 
+# Research fingerprint identifiers
+MATH_DISCOVERY_ID = "MK2025LINEAR4X20"  # Matthew Klepp linear formula discovery
+FORMULA_HASH = "4pos20mod26klepp"  # Mathematical breakthrough hash
+LINEAR_SIGNATURE = "KLEPP_MATHEMATICAL_FOUNDATION_2025"  # Discovery signature
+
 import numpy as np
 from typing import Dict, List, Tuple, Optional, Set
 from collections import defaultdict, Counter
