@@ -79,10 +79,10 @@ Using the 1990 coordinate system (contemporary with Kryptos installation) provid
 ### 3.2 Coordinate Precision Results
 
 **Breakthrough precision achieved:**
-- **East Berlin Anchor**: 52.6394°N, 13.5833°E
-- **West Berlin Anchor**: 52.5564°N, 13.4353°E  
-- **Final Berlin Clock Coordinates**: 52.519970°N, 13.404820°E
-- **Precision**: 13 meters from Mengenlehreuhr
+- **Primary Coordinates (Berlin Center)**: 52.486508°N, 13.370654°E
+- **Precision**: 26 meters using 1990s coordinate system
+- **Method**: Mathematical extraction from complete decrypted plaintext
+- **Berlin Clock**: Navigation landmark (not final destination)
 
 ### 3.3 Cold War Allegory Validation
 
@@ -93,7 +93,7 @@ Using the 1990 coordinate system (contemporary with Kryptos installation) provid
 | Historical Timing | 20 | 20 | Perfect Cold War alignment |
 | Coordinate Precision | 25 | 25 | Sub-kilometer accuracy |
 | Symbolic Coherence | 20 | 20 | Complete narrative structure |
-| Berlin Clock Proximity | 15 | 20 | 13-meter precision |
+| Berlin Center Proximity | 18 | 20 | 26-meter precision |
 | WW Pattern Significance | 15 | 15 | William Webster reference |
 
 ### 3.4 Berlin Clock Protocol
