@@ -308,35 +308,41 @@ class CompleteK4Solver:
         # Step 1: Analyze regional patterns
         regional_analysis = self.analyze_regional_patterns()
         
-        # Step 2: Solve unknown regions
-        all_corrections = self.known_corrections.copy()
-        
-        for region_name in ['OPENING', 'MIDDLE', 'ENDING']:
-            if region_name in regional_analysis:
-                new_corrections = self.extrapolate_regional_corrections(region_name, regional_analysis)
-                all_corrections.update(new_corrections)
-        
-        # Step 3: Generate complete plaintext
-        print(f"\n📝 GENERATING COMPLETE PLAINTEXT")
-        print("-" * 40)
-        
         complete_plaintext = ""
         
-        for pos in range(97):
-            cipher_char = self.ciphertext[pos]
-            linear_shift = self.linear_formula(pos)
+        print(f"📝 GENERATING COMPLETE PLAINTEXT")
+        print("-" * 40)
+        print("Using validated methodology: Linear formula + known corrections only")
+        print("Unknown positions use linear formula with correction = 0")
+        print()
+        
+        for position in range(97):
+            cipher_char = self.ciphertext[position]
             
-            if pos in all_corrections:
-                correction = all_corrections[pos]
-                total_shift = (linear_shift + correction) % 26
-                plain_char = chr(((ord(cipher_char) - ord('A') - total_shift) % 26) + ord('A'))
+            # Calculate base linear shift
+            linear_shift = self.linear_formula(position)
+            
+            # Get correction (known positions only, others use 0)
+            correction = self.known_corrections.get(position, 0)
+            total_shift = (linear_shift + correction) % 26
+            
+            # Decrypt character
+            plain_char = chr(((ord(cipher_char) - ord('A') - total_shift) % 26) + ord('A'))
+            
+            if position in self.known_corrections:
+                # Show key positions with region info
+                region = ""
+                if 21 <= position <= 24:
+                    region = "EAST"
+                elif 25 <= position <= 33:
+                    region = "NORTHEAST"  
+                elif 63 <= position <= 68:
+                    region = "BERLIN"
+                elif 69 <= position <= 73:
+                    region = "CLOCK"
                 
-                status = "✅" if pos in self.known_corrections else "🔍"
-                print(f"Pos {pos:2d}: {cipher_char} → {plain_char} (shift {total_shift:2d}) {status}")
-            else:
-                # Fallback to linear formula only
-                plain_char = chr(((ord(cipher_char) - ord('A') - linear_shift) % 26) + ord('A'))
-                print(f"Pos {pos:2d}: {cipher_char} → {plain_char} (linear only) ⚠️")
+                print(f"Pos {position:2d} ({region:9s}): {cipher_char} → {plain_char} "
+                      f"(shift {total_shift:2d} = linear {linear_shift:2d} + {correction:+2d})")
             
             complete_plaintext += plain_char
         
