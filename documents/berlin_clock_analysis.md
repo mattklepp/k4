@@ -15,9 +15,9 @@ The Berlin Clock serves as:
 
 ## Geographic Correction
 - **Berlin Clock coordinates**: 52.504722°N, 13.335278°E
-- **Our extracted coordinates**: 52.519970°N, 13.404820°E
+- **Our extracted coordinates**: 52.486508°N, 13.370654°E
 - **Actual target**: Berlin Center (26m precision using 1990s system)
-- **Distance to Berlin Clock**: 5.0 km (not the intended target)
+- **Distance to Berlin Clock**: ~5.0 km (navigation landmark, not final destination)
 
 ## Berlin Clock Mechanism
 

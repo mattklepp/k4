@@ -26,8 +26,8 @@ Each letter in the code needs a **different correction** to decode it. It's like
 
 ### **Step 2: Using the Clues**
 Sanborn gave us a few hints over the years:
-- The word "NORTHEAST" appears at positions 26-33
-- The word "EAST" appears at positions 22-25  
+- The word "NORTHEAST" appears at positions 25-33
+- The word "EAST" appears at positions 21-24  
 - Something about "BERLIN CLOCK"
 - One letter encrypts to itself (position 73: K→K)
 
@@ -49,14 +49,17 @@ Think of it like a **recipe** where each ingredient (letter) needs a specific am
 When we apply all the corrections, the scrambled letters become readable text:
 
 ```
-EASTNORTHEASTBERLINCLOCKWBTVFYPCOKWJOTBJKZEHSTJ
+UDILKAFSGDMZLYQJCVNJAEASTNORTHEASTOPOHAYLOMIQSDZSSHTQNSXYMEMNBTBERLINCLOCKSYRUFZRDSPQKKQZIKAGIWQD
 ```
 
 Breaking this down:
-- **EAST** (compass direction)
-- **NORTHEAST** (compass direction)  
-- **BERLINCLOCK** (reference to a famous clock in Berlin)
-- **WBTVFYPCOKWJOTBJKZEHSTJ** (the mysterious ending)
+- **Opening segment**: UDILKAFSGDMZLYQJCVNJA (positions 0-20)
+- **EAST** (positions 21-24)
+- **NORTHEAST** (positions 25-33)  
+- **Middle segment**: OPOHAYLOMIQSDZSSHTQNSXYMEMNBT (positions 34-62)
+- **BERLIN** (positions 63-68)
+- **CLOCK** (positions 69-73)
+- **Ending segment**: SYRUFZRDSPQKKQZIKAGIWQD (positions 74-96)
 
 ---
 
