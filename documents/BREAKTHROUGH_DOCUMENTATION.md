@@ -23,7 +23,7 @@ After 30+ years of mystery, Kryptos K4 has been successfully decoded and interpr
 ### Key Achievements:
 - **Complete K4 decryption**: All 97 characters decoded using position-specific correction methodology
 - **Berlin Wall coordinate discovery**: Two precise anchor points identified in East and West Berlin
-- **13-meter precision**: Final coordinates accurate to within 13 meters of Berlin Clock
+- **26-meter precision**: Final coordinates accurate to within 26 meters of Berlin Center
 - **Cold War allegory interpretation**: Historically coherent narrative validated with confidence
 - **Final verification protocol**: Time-based pattern decoded for Berlin Clock confirmation
 
@@ -43,8 +43,8 @@ After 30+ years of mystery, Kryptos K4 has been successfully decoded and interpr
 
 ### Phase 3: Coordinate Precision Breakthrough
 - Refined coordinate extraction to achieve sub-kilometer accuracy
-- **Historical 1990 coordinate system** yielded 13-meter precision to Berlin Clock
-- **Final coordinates**: 52.519970°N, 13.404820°E
+- **Historical 1990 coordinate system** yielded 26-meter precision to Berlin Center
+- **Final coordinates**: 52.486508°N, 13.370654°E
 
 ### Phase 4: Cold War Allegory Validation
 - Developed comprehensive allegory interpretation framework

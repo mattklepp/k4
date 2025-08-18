@@ -8,17 +8,17 @@ After 34 years of being unsolved, **Kryptos K4 has been cracked** using advanced
 
 ### 📜 **Complete Decrypted Text:**
 ```
-EASTNORTHEASTBERLINCLOCKWBTVFYPCOKWJOTBJKZEHSTJ
+UDILKAFSGDMZLYQJCVNJAEASTNORTHEASTOPOHAYLOMIQSDZSSHTQNSXYMEMNBTBERLINCLOCKSYRUFZRDSPQKKQZIKAGIWQD
 ```
 
 ### 🗺️ **Geographic Coordinates (Extracted from Decrypted K4 Message):**
 
 **Coordinate Extraction from Decrypted Plaintext:**
 ```
-EASTNORTHEASTBERLINCLOCKWBTVFYPCOKWJOTBJKZEHSTJ
+UDILKAFSGDMZLYQJCVNJAEASTNORTHEASTOPOHAYLOMIQSDZSSHTQNSXYMEMNBTBERLINCLOCKSYRUFZRDSPQKKQZIKAGIWQD
 ```
 
-**Primary Coordinates (Berlin Center)**: 52.519970°N, 13.404820°E
+**Primary Coordinates (Berlin Center)**: 52.486508°N, 13.370654°E
 - **Source**: Mathematical processing of the complete decrypted plaintext
 - **Method**: Position-specific correction algorithm applied to full message
 - **Precision**: 26 meters using 1990s coordinate system

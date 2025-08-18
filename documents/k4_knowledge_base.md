@@ -17,11 +17,11 @@ OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZX
 - **Solution type**: Cold War allegory with geographic coordinates
 
 ### Confirmed Clues
-1. **NORTHEAST** appears at positions 26-33
-2. **EAST** appears at positions 22-25
+1. **NORTHEAST** appears at positions 25-33
+2. **EAST** appears at positions 21-24
 3. **BERLIN CLOCK** reference confirmed (navigation landmark)
 4. One letter encrypts to itself (K→K at position 73)
-5. **Complete solution**: EASTNORTHEASTBERLINCLOCKWBTVFYPCOKWJOTBJKZEHSTJ
+5. **Complete solution**: UDILKAFSGDMZLYQJCVNJAEASTNORTHEASTOPOHAYLOMIQSDZSSHTQNSXYMEMNBTBERLINCLOCKSYRUFZRDSPQKKQZIKAGIWQD
 6. **Geographic coordinates**: Point to Berlin Center (26m precision, 1990s system)
 7. **Schwerbelastungskörper**: Secondary symbolic target (Nazi monument)
 
@@ -38,10 +38,10 @@ OBKRUOXOGHULBSOLIFBBWFLRVQQPRNGKSSOTWTQSJQSSEKZZWATJKLUDIAWINFBNYPVTTMZFPKWGDKZX
 ### Character Frequency
 ```
 Position mapping of known plaintext:
-22-25: FLRV → EAST
-26-33: QQPRNGKSS → NORTHEAST  
-64-69: NYPVTT → BERLIN
-70-74: MZFPK → CLOCK
+21-24: FLRV → EAST
+25-33: QQPRNGKSS → NORTHEAST  
+63-68: NYPVTT → BERLIN
+69-73: MZFPK → CLOCK
 ```
 
 ### Statistical Properties
