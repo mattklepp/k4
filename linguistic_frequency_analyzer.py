@@ -242,35 +242,35 @@ class LinguisticFrequencyAnalyzer:
         print(f"\n🔍 Pattern Detection Analysis")
         print("-" * 40)
         
-        patterns = self.find_patterns(self.full_output)
+        full_patterns = self.find_patterns(self.full_output)
         
-        print(f"Common bigrams found: {len(patterns['bigrams'])}")
-        for bigram, pos in patterns['bigrams'][:10]:  # Show first 10
+        print(f"Common bigrams found: {len(full_patterns['bigrams'])}")
+        for bigram, pos in full_patterns['bigrams'][:10]:  # Show first 10
             print(f"   '{bigram}' at position {pos}")
         
-        print(f"\nCommon trigrams found: {len(patterns['trigrams'])}")
-        for trigram, pos in patterns['trigrams'][:10]:
+        print(f"\nCommon trigrams found: {len(full_patterns['trigrams'])}")
+        for trigram, pos in full_patterns['trigrams'][:10]:
             print(f"   '{trigram}' at position {pos}")
         
-        print(f"\nRepeated characters: {len(patterns['repeated_chars'])}")
-        repeated_counts = Counter([char for char, pos in patterns['repeated_chars']])
+        print(f"\nRepeated characters: {len(full_patterns['repeated_chars'])}")
+        repeated_counts = Counter([char for char, pos in full_patterns['repeated_chars']])
         for char, count in repeated_counts.most_common(5):
             print(f"   '{char}' repeated {count} times")
         
-        print(f"\nX patterns (K2 style): {len(patterns['x_patterns'])}")
-        for pattern, pos in patterns['x_patterns']:
+        print(f"\nX patterns (K2 style): {len(full_patterns['x_patterns'])}")
+        for pattern, pos in full_patterns['x_patterns']:
             print(f"   '{pattern}' at position {pos}")
         
-        print(f"\nIntelligence terms: {len(patterns['intelligence_terms'])}")
-        for term, pos in patterns['intelligence_terms']:
+        print(f"\nIntelligence terms: {len(full_patterns['intelligence_terms'])}")
+        for term, pos in full_patterns['intelligence_terms']:
             print(f"   '{term}' at position {pos}")
         
-        print(f"\nGeographic terms: {len(patterns['geographic_terms'])}")
-        for term, pos in patterns['geographic_terms']:
+        print(f"\nGeographic terms: {len(full_patterns['geographic_terms'])}")
+        for term, pos in full_patterns['geographic_terms']:
             print(f"   '{term}' at position {pos}")
         
-        print(f"\nPotential words (3+ chars with vowels): {len(set(patterns['potential_words']))}")
-        word_counts = Counter(patterns['potential_words'])
+        print(f"\nPotential words (3+ chars with vowels): {len(set(full_patterns['potential_words']))}")
+        word_counts = Counter(full_patterns['potential_words'])
         for word, count in word_counts.most_common(10):
             print(f"   '{word}' ({count} times)")
         
@@ -345,10 +345,10 @@ class LinguisticFrequencyAnalyzer:
         print(f"📊 Overall Assessment:")
         print(f"   English similarity: {english_similarity:.1f}%")
         print(f"   Vowel ratio: {vowel_ratio:.2f}")
-        bigram_count = len(patterns['bigrams']) if isinstance(patterns['bigrams'], list) else 0
-        trigram_count = len(patterns['trigrams']) if isinstance(patterns['trigrams'], list) else 0
+        bigram_count = len(full_patterns['bigrams']) if isinstance(full_patterns['bigrams'], list) else 0
+        trigram_count = len(full_patterns['trigrams']) if isinstance(full_patterns['trigrams'], list) else 0
         print(f"   Common patterns: {bigram_count + trigram_count}")
-        print(f"   Potential words: {len(set(patterns['potential_words']))}")
+        print(f"   Potential words: {len(set(full_patterns['potential_words']))}")
         
         if english_similarity >= 70:
             print(f"   🎯 HIGH quality - likely contains correct English")
@@ -361,13 +361,13 @@ class LinguisticFrequencyAnalyzer:
         
         print(f"\n🔍 Key Findings:")
         
-        if len(patterns['x_patterns']) > 0:
+        if len(full_patterns['x_patterns']) > 0:
             print(f"   🔍 X patterns found - possible K2-style separators")
         
-        if len(patterns['intelligence_terms']) > 0:
+        if len(full_patterns['intelligence_terms']) > 0:
             print(f"   🔍 Intelligence terms detected")
         
-        if len(patterns['geographic_terms']) > 0:
+        if len(full_patterns['geographic_terms']) > 0:
             print(f"   🔍 Geographic terms detected")
         
         # Identify best segments
@@ -381,16 +381,16 @@ class LinguisticFrequencyAnalyzer:
         if vowel_ratio < 0.25:
             print(f"   💡 Very low vowel ratio suggests matrix/correction issues")
         
-        if len(patterns['bigrams']) < 5:
+        if len(full_patterns['bigrams']) < 5:
             print(f"   💡 Few English patterns - try alternative matrices")
         
-        if len(set(patterns['potential_words'])) > 10:
+        if len(set(full_patterns['potential_words'])) > 10:
             print(f"   💡 Many potential words - partial decryption may be working")
         
         return {
             'english_similarity': english_similarity,
             'vowel_ratio': vowel_ratio,
-            'patterns': patterns,
+            'patterns': full_patterns,
             'segments': segments,
             'character_analysis': char_analysis
         }
